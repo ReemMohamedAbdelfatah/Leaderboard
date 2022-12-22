@@ -1,0 +1,78 @@
+* {
+  padding: 0 30px 30px 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body::after {
+  content: "";
+  background: url('./assets/leaderboard.jpg');
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+}
+
+h3 {
+  padding: 0 20px 0 0;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.left-div form {
+  display: flex;
+  align-items: center;
+}
+
+.left-div button {
+  padding: 10px;
+  border: solid 2px black;
+  box-shadow: 3px 3px 0 0;
+}
+
+.right-div {
+  margin-left: 30px;
+  padding: 0;
+}
+
+.right-div form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-div form input {
+  padding: 20px;
+}
+
+.right-div button {
+  padding: 10px;
+  align-self: end;
+  border: solid 2px black;
+  box-shadow: 3px 3px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  border: solid 2px black;
+}
+
+.left-div li:nth-child(odd) {
+  background: #ccc;
+}
