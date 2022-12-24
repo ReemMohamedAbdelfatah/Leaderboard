@@ -26,6 +26,7 @@ body::after {
 
 #score-list {
   overflow-y: scroll;
+  height: 45vh;
 }
 
 h3 {
