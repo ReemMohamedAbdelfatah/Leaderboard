@@ -24,6 +24,10 @@ body::after {
   width: 80%;
 }
 
+#score-list {
+  overflow-y: scroll;
+}
+
 h3 {
   padding: 0 20px 0 0;
 }
@@ -34,7 +38,7 @@ h3 {
   padding: 0;
 }
 
-.left-div form {
+.left-div aside {
   display: flex;
   align-items: center;
 }
@@ -71,6 +75,10 @@ ul {
   list-style-type: none;
   padding: 10px;
   border: solid 2px black;
+}
+
+li {
+  padding: 10px;
 }
 
 .left-div li:nth-child(odd) {

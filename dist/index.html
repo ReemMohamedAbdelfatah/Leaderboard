@@ -5,36 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leaderboard 📑</title>
-<script defer src="main.379e7d5d1f2a51747ad5.js"></script></head>
+<script defer src="main.2106175e548d57aa91ba.js"></script></head>
 <body>
   <header>
     <h1>Leaderboard 📑</h1>
   </header>
   <main class="main-container">
     <div class="left-div">
-      <form>
+      <aside>
       <h3>Recent Scores</h3>
-        <button type="submit">Refresh</button>
-      </form>
+        <button type="button" id="refreshButton">Refresh</button>
+      </aside>
       <div>
         <ul id="score-list">
-          <li>name: 100</li>
-          <li>name: 40</li>
-          <li>name: 20</li>
-          <li>name: 100</li>
-          <li>name: 70</li>
+          
         </ul>
       </div>
       
     </div>
     <div class="right-div">
-      <form>
+        <form class="input-form">
         <h3>Add your score</h3>
-        <input type="text"/>
-        <input type="text"/>
-        <button type="submit">Submit</button>
+        <input type="text" type="text" placeholder="Your name"/>
+        <input type="text" type="number" placeholder="Your score"/>
+        <button type="submit" id="submit-btn">Submit</button>
       </form>
     </div>
   </main>
+  <script src="./index.js"></script>
 </body>
 </html>
